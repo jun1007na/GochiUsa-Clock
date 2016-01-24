@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GochiUsa Clock</title>
+
+    <!-- stylesheet-->
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="image">
+        <img id="chino" src="img/chino.png">
+        <img id="megumaya" src="img/megumaya.png">
+        <img id="moon" src="img/moon.png">
+        <img id="star" class="star1" src="img/star.png">
+        <img id="bigWhiteStar" class="star1" src="img/bigWhiteStar.png">
+        <img id="whiteStar" class="star2" src="img/whiteStar.png">
+        <img id="smallStar" class="star2" src="img/smallStar.png">
+
+    </div>
+
+    <div class="clock">
+        <div id="current_time"></div>
+        <div id="current_day"></div>
+    </div>
+
+    <script src="js/clock.js"></script>
+    <script src="js/obj_float.js"></script>
+</body>
+
+</html>

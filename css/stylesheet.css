@@ -1,0 +1,89 @@
+* {
+    color: #fff;
+    text-shadow: 3px 3px 10px #76b1f5, 1px 1px 1px #76b1f5, 1px -1px 1px #76b1f5, -1px 1px 1px #76b1f5, -1px -1px 1px #76b1f5;
+}
+
+body {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: url(../img/background.png) center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    padding-top: 56.25%;
+    /*スクロール禁止*/
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+}
+
+.clock {
+    position: fixed;
+    bottom: 1vw;
+    right: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 10;
+}
+
+#current_time {
+    text-align: center;
+    font-size: 10vw;
+}
+
+#current_day {
+    text-align: center;
+    font-size: 4vw;
+}
+
+#chino {
+    position: absolute;
+    top: 5vw;
+    left: 30vw;
+    width: 22vw;
+    z-index: 9;
+}
+
+#megumaya {
+    position: absolute;
+    top: 1vw;
+    left: 50vw;
+    width: 40vw;
+    z-index: 8;
+}
+
+#moon {
+    position: absolute;
+    top: 0;
+    left: 20vw;
+    width: 40vw;
+    z-index: 1;
+}
+
+.star1 {
+    position: absolute;
+    top: 0;
+    width: 5vw;
+    z-index: 1;
+}
+
+.star2 {
+    position: absolute;
+    top: -5vw;
+    width: 5vw;
+    z-index: 1;
+}
+
+#star {
+    left: 25vw;
+}
+
+#whiteStar {
+    left: 5vw;
+}
+
+#smallStar {
+    left: 90vw;
+}
+
+#bigWhiteStar {
+    left: 70vw;
+}
